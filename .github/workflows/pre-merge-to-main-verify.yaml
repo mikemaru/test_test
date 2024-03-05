@@ -1,7 +1,5 @@
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 name: pre-merge-to-main-verify
 env:
   TZ: Asia/Tokyo
