@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - main
-name: verify
+name: mainpush
 env:
   TZ: Asia/Tokyo
 jobs:
